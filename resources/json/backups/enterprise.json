@@ -1,0 +1,627 @@
+[{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388d6"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "ESCOLUB SA DE CV",
+  "nickName": "ESCOLUB",
+  "rfc": "ESC160822352",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388d7"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SINMEX CONSORCIO INTELIGENTE SA DE CV",
+  "nickName": "SINMEX",
+  "rfc": "SCI180314EQ4",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388d8"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "TRANSPORTADORA DEL PACIFICO Y GOLFO DE MEXICO S.A DE C.V",
+  "nickName": "TRANSPORTADORA DEL PACIFICO Y GOLFO DE MEXICO",
+  "rfc": "TPG140101594",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388d9"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "TRACTO PENSION S.A DE C.V",
+  "nickName": "TRACTO PENSION",
+  "rfc": "TPE110616HX6",
+  "email": "apimienta@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388da"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "ALMIGNA SA DE CV(INMOBILIARIA)",
+  "nickName": "ALMIGNA INMOBILIARIA",
+  "rfc": "IAL191029DF1",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388db"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "FOSILOGISTICA DE MEXICO SA DE CV",
+  "nickName": "FOSILOGISTICA",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388dc"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "MULTISERVICIOS IBPO SA DE CV",
+  "nickName": "MULTISERVICIOS IBPO",
+  "rfc": "MIB19070158A",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388dd"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "ALMIGNA SA DE CV (CORPORATIVO)",
+  "nickName": "ALMIGNA CORPORATIVO",
+  "rfc": "CAL170502RT7",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388de"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c905"
+  },
+  "businessName": "GASERVICIO SA DE CV",
+  "nickName": "GASERVICIO",
+  "rfc": "GAS981207LS0",
+  "email": null,
+  "cellphones": [
+    "(662)2164762"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388df"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "CORPOX SA DE CV",
+  "nickName": "CORPOX",
+  "rfc": "CSC090325BJA",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e0"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO MILENIUS S.A DE C.V 2",
+  "nickName": "ESCOSERRA MILENIUS 2",
+  "rfc": "SMI980421716",
+  "email": "lcrisantes@grupoescoserra.com",
+  "cellphones": [
+    "(667)283-02-31"
+  ],
+  "serverDomain": "tjxfzd.ddns.net:82",
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e1"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PETRO MILENIUM SA DE CV",
+  "nickName": "PETRO MILENIUM",
+  "rfc": "PMI150620UT0",
+  "email": null,
+  "cellphones": [
+    "(667)761-33-78"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e2"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "BESIKTAS BICENTENARIO SA DE CV",
+  "nickName": "BESIKTAS BICENTENARIO",
+  "rfc": "BES1405053A0",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e3"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "ALTROGAS SA DE CV",
+  "nickName": "ALTROGAS",
+  "rfc": "ALT191031AT2",
+  "email": "karamburo@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e4"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PROVEFULL SA DE CV",
+  "nickName": "PROVEFULL",
+  "rfc": "PRO1907166H7",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e5"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8d5"
+  },
+  "businessName": "ESCOTAC SA DE CV",
+  "nickName": "ESCOTAC",
+  "rfc": "ESC180822U86",
+  "email": "lmalo.escoserra@gmail.com",
+  "cellphones": [
+    "7777777777"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e6"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "SERVICIO ESCOSERRA DEL LIBRAMIENTO S.A DE C.V(SANTA ROSA)",
+  "nickName": "ESCOSERRA LIBRAMIENTO SANTA ROSA",
+  "rfc": "SEL090325333",
+  "email": "aserrano@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e7"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "RINDEMAS SA DE CV",
+  "nickName": "RINDEMAS",
+  "rfc": "GRI1102037D5",
+  "email": null,
+  "cellphones": [
+    "667"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e8"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "COMBUTOTAL DEL NOROESTE SA DE CV",
+  "nickName": "ESCOSERRA COMBUTOTAL",
+  "rfc": "CNO200824M1A",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388e9"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "ERA TECH COMBUSTIBLES SA DE CV (ORQUIDEAS)",
+  "nickName": "ERA TECH ORQUIDEAS",
+  "rfc": "ETC190117S97",
+  "email": null,
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388ea"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PETROLOGISTICA DEL PACIFICO S.A. DE C.V.(FLORIDO)",
+  "nickName": "PETROLOGISTICA FLORIDO",
+  "rfc": "PPA200220BN0",
+  "email": null,
+  "cellphones": [
+    "667"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+}]

@@ -1,0 +1,1681 @@
+[{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388eb"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "GRUPO ESLE DE SINALOA S.A DE C.V",
+  "nickName": "GRUPO ESLE",
+  "rfc": "GES1806127M5",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 7,
+  "brand": "SIN MARCA",
+  "legalPermission": null,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388ec"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8dc"
+  },
+  "businessName": "OPERADORA DE HOTELES ESCOSERRA SA DE CV",
+  "nickName": "MANSION SERRANO",
+  "rfc": "OHE0910228H2",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 53,
+  "brand": "SIN MARCA",
+  "legalPermission": null,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388ed"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "COPPEL SA DE CV",
+  "nickName": "COPPEL",
+  "rfc": "COP920428Q20",
+  "email": null,
+  "cellphones": [
+    "667"
+  ],
+  "serverDomain": null,
+  "category": "RENTAMOS",
+  "segment": 0,
+  "stationNumber": 100,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/COPPEL/EXP/ES/2020",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388ee"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIOS FAVELA DEL PALMITO S.A DE C.V",
+  "nickName": "ESCOSERRA FAVELA",
+  "rfc": "SFP750818MBA",
+  "email": "izazueta@grupoescoserra.com",
+  "cellphones": [
+    "(667)-714-65-20",
+    "(667)-714-37-17"
+  ],
+  "serverDomain": "mhtckn.ddns.net:1459",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 1314,
+  "brand": "PEMEX",
+  "legalPermission": "PL/11939/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388ef"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e4"
+  },
+  "businessName": "SERVICIO ESCOSERRA LOS OLIVOS S.A DE C.V (GUAMUCHIL)",
+  "nickName": "ESCOSERRA DESCANSO",
+  "rfc": "SEO060209C93",
+  "email": "iacosta@grupoescoserra.com",
+  "cellphones": [
+    "(673) 732-06-93"
+  ],
+  "serverDomain": "wsduot.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 1325,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/9592/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f0"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e4"
+  },
+  "businessName": "SINALOA MOTORS DE GUAMUCHIL S.A DE C.V",
+  "nickName": "ESCOSERRA GUAMUCHIL",
+  "rfc": "SMG610925C14",
+  "email": "acorrales@grupoescoserra.com",
+  "cellphones": [
+    "(673) 732-25-70"
+  ],
+  "serverDomain": "cdnofs.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 1326,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/4948/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f1"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "AUTO SERVICIOS HUMAYA S.A DE C.V",
+  "nickName": "ESCOSERRA HUMAYA",
+  "rfc": "ASH560522354",
+  "email": "gvalenzuela@grupoescoserra.com",
+  "cellphones": [
+    "(667)750-51-66",
+    "(667)750-92-74"
+  ],
+  "serverDomain": "138.185.2.202",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 1327,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7902/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f2"
+  },
+  "townId": {
+    "$oid": "63ebabbc73d0d0da3f61c18a"
+  },
+  "businessName": "GRUPO UNIONES S.A DE C.V",
+  "nickName": "ESCOSERRA UNIONES",
+  "rfc": "GUN030814J89",
+  "email": "yalmejo@grupoescoserra.com",
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 2647,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/4927/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f3"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "VALES FUSIÓN E04855",
+  "nickName": "VALES FUSIÓN E04855",
+  "rfc": "XXXXXXXXXXXX",
+  "email": "franciscotrizon@gmail.com",
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 4855,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1782/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f4"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "SERVICIO ESCOSERRA DE MAZATLAN S.A DE C.V",
+  "nickName": "ESCOSERRA MAZATLÁN",
+  "rfc": "SEM960729IG1",
+  "email": "rrodriguez@grupoescoserra.com",
+  "cellphones": [
+    "(669)986-74-10"
+  ],
+  "serverDomain": "stepoo.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 5200,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7919/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f5"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO MILENIUS S.A DE C.V 1",
+  "nickName": "ESCOSERRA MILENIUS 1",
+  "rfc": "SMI980421716",
+  "email": "lcrisantes@grupoescoserra.com",
+  "cellphones": [
+    "(667) 761-33-78"
+  ],
+  "serverDomain": "dpzyfl.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 6443,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7917/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f6"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA DE CULIACAN S.A DE C.V (UA DE O)",
+  "nickName": "ESCOSERRA UA DE O",
+  "rfc": "SEC010215EJ4",
+  "email": "cperez@grupoescoserra.com",
+  "cellphones": [
+    "(667)754-44-28"
+  ],
+  "serverDomain": "192.168.10.29",
+  "category": "PROPIA",
+  "segment": 1,
+  "stationNumber": 6555,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7916/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f7"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIOS GUVERID SA DE CV",
+  "nickName": "ESCOSERRA GUVERID",
+  "rfc": "SGU021126CY1",
+  "email": "ccastro@grupoescoserra.com",
+  "cellphones": [
+    "(667) 761-63-40"
+  ],
+  "serverDomain": "192.168.10.144",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 7308,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/8153/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f8"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA S.A DE C.V",
+  "nickName": "ESCOSERRA BARRANCOS",
+  "rfc": "SES020506A96",
+  "email": "benfloresp@hotmail.com",
+  "cellphones": [
+    "(667)760-71-06"
+  ],
+  "serverDomain": "lkgtdb.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 7542,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7899/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388f9"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "GASOLINERAS CORI S.A DE C.V",
+  "nickName": "ESCOSERRA CORI",
+  "rfc": "GCO030228CW8",
+  "email": "ccastro@grupoescoserra.com",
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 7738,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/11446/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388fa"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "SERVICIO PRECIADO",
+  "nickName": "SERVICIO PRECIADO",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 8150,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1778/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388fb"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA EL TREBOL S.A DE C.V  (MALECON)",
+  "nickName": "ESCOSERRA MALECÓN",
+  "rfc": "SET060419257",
+  "email": "cuetosa@gmail.com",
+  "cellphones": [
+    "(667) 713-68-78"
+  ],
+  "serverDomain": "192.168.10.201",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 9246,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7909/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388fc"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "SERVICIO ESCOSERRA LOS OLIVOS S.A DE C.V",
+  "nickName": "ESCOSERRA OLIVOS",
+  "rfc": "SEO060209C93",
+  "email": "eserrano@grupoescoserra.com",
+  "cellphones": [
+    "(669)980-88-62"
+  ],
+  "serverDomain": "stepoo.ddns.net:81",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 9281,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7911/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388fd"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA EL TREBOL S.A DE C.V",
+  "nickName": "ESCOSERRA TREBOL",
+  "rfc": "SET060419257",
+  "email": "bflores@grupoescoserra.com",
+  "cellphones": [
+    "(667) 760-64-49"
+  ],
+  "serverDomain": "vqhfzw.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 9551,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7908/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388fe"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "GASOVÍA E09721",
+  "nickName": "GASOVÍA E09721",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 9721,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1783/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c2388ff"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "SERVICIO ESCOSERRA DEL LIBRAMIENTO S.A DE C.V",
+  "nickName": "ESCOSERRA LIBRAMIENTO",
+  "rfc": "SEL090325333",
+  "email": "eserrano@grupoescoserra.com",
+  "cellphones": [
+    "(669)917-36-10"
+  ],
+  "serverDomain": "qqlurm.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 10417,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7920/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238900"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "LIGARE SA DE CV",
+  "nickName": "LIGARE 1",
+  "rfc": "LIG060602IY2",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": "ligare.dyndns.org",
+  "category": "RENTAMOS",
+  "segment": 0,
+  "stationNumber": 10983,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/3415/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238901"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "COMBUSTIÓN PALMARES",
+  "nickName": "COMBUSTIÓN PALMARES",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 11088,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1780/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238902"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "GASOLINERA UDI SA DE CV",
+  "nickName": "GASOLINERA UDI",
+  "rfc": "GUD0612098J0",
+  "email": "colivas@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 11397,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/10979/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238903"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA COSTA RICA S.A DE C.V",
+  "nickName": "ESCOSERRA COSTA RICA",
+  "rfc": "SEC101101594",
+  "email": "cchaidez@grupoescoserra.com",
+  "cellphones": [
+    "(667) 728-06-74"
+  ],
+  "serverDomain": "ahuhoe.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 11478,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7906/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238904"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "TRENOGAS",
+  "nickName": "TRENOGAS",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 11502,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1784/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238905"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "TUGASOLINERA SA DE CV (VALLE ALTO)",
+  "nickName": "ESCOSERRA VALLE ALTO",
+  "rfc": "TUG020422NV7",
+  "email": "jperez@grupoescoserra.com",
+  "cellphones": [
+    "6677896185"
+  ],
+  "serverDomain": "trikru.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 11539,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/3010/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238906"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e4"
+  },
+  "businessName": "SERVICIO ESCOSERRA SA DE CV (ANGOSTURA)",
+  "nickName": "ESCOSERRA ANGOSTURA",
+  "rfc": "SES020506A96",
+  "email": "sgodoy@grupoescoserra.com",
+  "cellphones": [
+    "(697) 734-10-19"
+  ],
+  "serverDomain": "dynthc.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 11588,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/3011/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238907"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "SERVICIO ESCOSERRA LOS OLIVOS S.A DE C.V (MARINA)",
+  "nickName": "ESCOSERRA MARINA",
+  "rfc": "SEO060209C93",
+  "email": "jhidalgo@grupoescoserra.com",
+  "cellphones": [
+    "(669)112-13-38"
+  ],
+  "serverDomain": "ncfiyn.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 11694,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7912/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238908"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "LOS VECINOS",
+  "nickName": "LOS VECINOS",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 11758,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1787/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238909"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "MAGAÑA SERVICIOS GASOLINEROS",
+  "nickName": "MAGAÑA SERVICIOS GASOLINEROS",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 11893,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1776/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23890a"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "GASOLINERA LOS VECINOS SA DE CV",
+  "nickName": "GASOLINERA LOS VECINOS SA DE CV",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 11894,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/20333/EXP/ES/2017",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23890b"
+  },
+  "townId": {
+    "$oid": "63ebabc373d0d0da3f61c3bd"
+  },
+  "businessName": "GASOFIA",
+  "nickName": "GASOFIA",
+  "rfc": "XXXXXXXXXXXX",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 11997,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/1786/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23890c"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA LOS OLIVOS S.A DE C.V  (GANADERA)",
+  "nickName": "ESCOSERRA GANADERA",
+  "rfc": "SEO060209C93",
+  "email": "jrivera@grupoescoserra.com",
+  "cellphones": [
+    "(667) 173-91-28"
+  ],
+  "serverDomain": "vpxsmg.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12260,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7913/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23890d"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA COSTERITA S.A DE C.V",
+  "nickName": "ESCOSERRA COSTERITA",
+  "rfc": "SEC111212HD3",
+  "email": "bflores@grupoescoserra.com",
+  "cellphones": [
+    "(667) 147-35-55"
+  ],
+  "serverDomain": "pmlqte.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12623,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/7914/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23890e"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PETROECONOMIC S.A DE C.V",
+  "nickName": "ESCOSERRA PETROECONOMIC",
+  "rfc": "PET111209NX7",
+  "email": "vangulo@grupoescoserra.com",
+  "cellphones": [
+    "(667) 723-21-56"
+  ],
+  "serverDomain": "vmneed.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12763,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/11957/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23890f"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "SERVICIO ESCOSERRA DE CULIACAN S.A DE C.V (PEDRO INFANTE)",
+  "nickName": "ESCOSERRA PEDRO INFANTE",
+  "rfc": "SEC010215EJ4",
+  "email": "hminjares@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "lzhmkf.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12903,
+  "brand": "PEMEX",
+  "legalPermission": "PL/19150/EXP/ES/2016",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238910"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "BESIKTAS SA DE CV",
+  "nickName": "ESCOSERRA BESIKTAS",
+  "rfc": "BES1405053A0",
+  "email": "gcueto@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "vhxryp.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12904,
+  "brand": "PEMEX",
+  "legalPermission": "PL/21877/EXP/ES/2018",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238911"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "ERA TECH COMBUSTIBLES SA DE CV",
+  "nickName": "ERA TECH",
+  "rfc": "ETC190117S97",
+  "email": "apimienta@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "lkwooq.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12906,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/23218/EXP/ES/2020",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238912"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "BESIKTAS ACAYA SA DE CA",
+  "nickName": "BESIKTAS ACAYA",
+  "rfc": "BES1405053A0",
+  "email": "nhernandez@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "acaya.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12907,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/23772/EXP/ES/2021",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238913"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PETRO MILENIUM SA DE CV (GASOLINERA)",
+  "nickName": "PETRO MILENIUM (GASOLINERA)",
+  "rfc": "PMI150620UT0",
+  "email": null,
+  "cellphones": [
+    "(667)761-33-78"
+  ],
+  "serverDomain": "tjxfzd.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12909,
+  "brand": "PEMEX",
+  "legalPermission": "PL/7918/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238914"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "TUGASOLINERA SA DE CV ( TORRES)",
+  "nickName": "ESCOSERRA TORRES",
+  "rfc": "TUG020422NV7",
+  "email": "karamburo@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "skykru.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12912,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/3008/EXP/ES/2015",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238915"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e2"
+  },
+  "businessName": "ALAMAR SA DE CV",
+  "nickName": "ALAMAR",
+  "rfc": "XXXXXXXXXXXX",
+  "email": "franciscotrizon@gmail.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": null,
+  "category": "SOCIOS",
+  "segment": 0,
+  "stationNumber": 12915,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/ALAMAR/EXP/ES/2020",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238916"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "RINDEMAS CUBS SA DE CV",
+  "nickName": "RINDEMAS CUBS",
+  "rfc": "RCU191114S45",
+  "email": null,
+  "cellphones": [
+    "667-135-19-99"
+  ],
+  "serverDomain": "rindemascubs.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12920,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/24266/EXP/ES/2022",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238917"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PETROECONOMIC PORTANOVA S.A DE C.V",
+  "nickName": "PORTANOVA",
+  "rfc": "PPO140502SU5",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12921,
+  "brand": "SIN MARCA",
+  "legalPermission": null,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238918"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "QUICKFUEL DE MEXICO S.A DE C.V",
+  "nickName": "QUICKFUEL",
+  "rfc": "QME1912196PA",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12922,
+  "brand": "SIN MARCA",
+  "legalPermission": null,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c238919"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "COMERCIALIZADORA ALMIGNA S.A DE .CV",
+  "nickName": "COMERCIALIZADORA ALMIGNA",
+  "rfc": "CAL2202107W6",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12923,
+  "brand": "SIN MARCA",
+  "legalPermission": null,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23891a"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "PETRO MILENIUM S.A DE C.V (FULL)",
+  "nickName": "PETRO MILENIUM FULL",
+  "rfc": "PMI150620UT0",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": null,
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 12924,
+  "brand": "SIN MARCA",
+  "legalPermission": null,
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23891b"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8db"
+  },
+  "businessName": "LIGARE SA DE CV 2",
+  "nickName": "LIGARE 2",
+  "rfc": "LIG060602IY2",
+  "email": null,
+  "cellphones": [],
+  "serverDomain": "ligare2.dyndns.org",
+  "category": "RENTAMOS",
+  "segment": 0,
+  "stationNumber": 70003,
+  "brand": "SIN MARCA",
+  "legalPermission": "PL/22149/EXP/ES/2019",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23891c"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "GUESTA, S. A. DE C. V.",
+  "nickName": "ESCOSERRA GUESTA",
+  "rfc": "GUE1809061Q2",
+  "email": "jhidalgo@grupoescoserra.com",
+  "cellphones": [
+    "6666666666"
+  ],
+  "serverDomain": "stepoo.ddns.net:82",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 70008,
+  "brand": "PEMEX",
+  "legalPermission": "PL/23238/EXP/ES/2020",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23891d"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e0"
+  },
+  "businessName": "ESCOTAC SA DE CV(MAZATLAN)",
+  "nickName": "ESCOTAC CERRO COLORADO",
+  "rfc": "ESC180822U86",
+  "email": "mlara@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "45.230.174.8",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 70009,
+  "brand": "PEMEX",
+  "legalPermission": "PL/22898/EXP/ES/2019",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+},{
+  "_id": {
+    "$oid": "63ebabece5e32a334c23891e"
+  },
+  "townId": {
+    "$oid": "63ebabcd73d0d0da3f61c8e2"
+  },
+  "businessName": "ERA TECH COMBUSTIBLES SA DE CV (NAVOLATO)",
+  "nickName": "ERA TECH NAVOLATO",
+  "rfc": "ETC190117S97",
+  "email": "ccastro@grupoescoserra.com",
+  "cellphones": [
+    "(667)"
+  ],
+  "serverDomain": "eratechnavolato.ddns.net",
+  "category": "PROPIA",
+  "segment": 0,
+  "stationNumber": 70011,
+  "brand": "QUICKGAS",
+  "legalPermission": "PL/23807/EXP/ES/2021",
+  "created_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1676389356,
+      "i": 1
+    }
+  },
+  "deleted_at": null
+}]

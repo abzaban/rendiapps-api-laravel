@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c159"
+  },
+  "name": "Aguascalientes"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c15a"
+  },
+  "name": "Baja California"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c15b"
+  },
+  "name": "Baja California Sur"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c15c"
+  },
+  "name": "Campeche"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c15d"
+  },
+  "name": "Coahuila de Zaragoza"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c15e"
+  },
+  "name": "Colima"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c15f"
+  },
+  "name": "Chiapas"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c160"
+  },
+  "name": "Chihuahua"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c161"
+  },
+  "name": "Ciudad de México"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c162"
+  },
+  "name": "Durango"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c163"
+  },
+  "name": "Guanajuato"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c164"
+  },
+  "name": "Guerrero"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c165"
+  },
+  "name": "Hidalgo"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c166"
+  },
+  "name": "Jalisco"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c167"
+  },
+  "name": "México"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c168"
+  },
+  "name": "Michoacán de Ocampo"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c169"
+  },
+  "name": "Morelos"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c16a"
+  },
+  "name": "Nayarit"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c16b"
+  },
+  "name": "Nuevo León"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c16c"
+  },
+  "name": "Oaxaca"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c16d"
+  },
+  "name": "Puebla"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c16e"
+  },
+  "name": "Querétaro"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c16f"
+  },
+  "name": "Quintana Roo"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c170"
+  },
+  "name": "San Luis Potosí"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c171"
+  },
+  "name": "Sinaloa"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c172"
+  },
+  "name": "Sonora"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c173"
+  },
+  "name": "Tabasco"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c174"
+  },
+  "name": "Tamaulipas"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c175"
+  },
+  "name": "Tlaxcala"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c176"
+  },
+  "name": "Veracruz de Ignacio de la Llave"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c177"
+  },
+  "name": "Yucatán"
+},{
+  "_id": {
+    "$oid": "63ebabbb73d0d0da3f61c178"
+  },
+  "name": "Zacatecas"
+}]
