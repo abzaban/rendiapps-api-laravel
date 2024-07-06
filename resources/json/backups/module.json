@@ -1,0 +1,357 @@
+[{
+  "_id": {
+    "$oid": "63ebabd32b0b532d3defb251"
+  },
+  "name": "Mesa de Ayuda",
+  "description": "Sistema para atender las peticiones, dudas o problemas de los usuarios.",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Mesa de Ayuda/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabd42b0b532d3defb252"
+  },
+  "name": "Vales Escoserra %",
+  "description": "Sistema administrador de vales de descuento de combustible.",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Vales Escoserra %/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabd62b0b532d3defb253"
+  },
+  "name": "Ventas",
+  "description": "Ventas, compras y aforos de estaciones de grupo escoserra.",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Ventas/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabd72b0b532d3defb254"
+  },
+  "name": "Polizas",
+  "description": "Pólizas",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Polizas/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabd82b0b532d3defb255"
+  },
+  "name": "Compras",
+  "description": "Control de gastos de sucursales",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Compras/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabd92b0b532d3defb256"
+  },
+  "name": "Liquidaciones",
+  "description": "Corte de caja para los despachadores",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Liquidaciones/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabda2b0b532d3defb257"
+  },
+  "name": "Configuraciones",
+  "description": "Gestión de usuarios, empresas y estaciones",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Configuraciones/official-icon.svg",
+  "uri": "configuraciones",
+  "isMaintenance": false,
+  "roles": [
+    {
+      "_id": 0,
+      "name": "Administrador de configuraciones",
+      "subModules": [
+        {
+          "name": "USUARIOS",
+          "description": "podrá administrar usuarios"
+        },
+        {
+          "name": "EMPRESAS",
+          "description": "podrá administrar empresas"
+        },
+        {
+          "name": "ESTACIONES",
+          "description": "podrá administrar estaciones"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63ebabdb2b0b532d3defb258"
+  },
+  "name": "Precios",
+  "description": "Obtiene precios de facturación y de venta de la pagina oficial de pemex",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Precios/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabdc2b0b532d3defb259"
+  },
+  "name": "Pre-Póliza",
+  "description": "Gestion De Pre-Pólizas",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Pre-Póliza/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabde2b0b532d3defb25a"
+  },
+  "name": "Pago A Proveedores",
+  "description": "Subir facturas xml",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Pago A Proveedores/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabdf2b0b532d3defb25b"
+  },
+  "name": "Radec",
+  "description": "Herramientas para el sistema radec.",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Radec/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe02b0b532d3defb25c"
+  },
+  "name": "Soporte Tecnico",
+  "description": "Modulo para dar soporte a las estaciones",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Soporte Tecnico/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe12b0b532d3defb25d"
+  },
+  "name": "Control de paquetes",
+  "description": "Sistema para gestionar el envio de vales",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Control de paquetes/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe22b0b532d3defb25e"
+  },
+  "name": "Rendivales",
+  "description": "Gestión de vales red",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Rendivales/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe32b0b532d3defb25f"
+  },
+  "name": "Rendivales Credito",
+  "description": "Sistema para gestionar",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Rendivales Credito/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe42b0b532d3defb260"
+  },
+  "name": "Pedidos Aceites",
+  "description": "Sistema para gestionar los pedidos de aceites.",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Pedidos Aceites/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe52b0b532d3defb261"
+  },
+  "name": "Rentas",
+  "description": "Sistema Para Manejar las rentas de IEES",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Rentas/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe62b0b532d3defb262"
+  },
+  "name": "Finanzas",
+  "description": "Se visualizan los saldos y cuentas bancarias de las diversas estaciones y empresas de Escoserra",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Finanzas/official-icon.svg",
+  "uri": "finanzas",
+  "isMaintenance": false,
+  "roles": [
+    {
+      "_id": 0,
+      "name": "Administrador de finanzas",
+      "subModules": [
+        {
+          "name": "CARTERAS",
+          "description": "para las estaciones que ve el usuario, podrá ver todos las cuentas bancarias"
+        },
+        {
+          "name": "SALDOS",
+          "description": "para las estaciones que ve el usuario, podrá ver todos los saldos"
+        }
+      ]
+    },
+    {
+      "_id": 1,
+      "name": "Gestor de saldos",
+      "subModules": [
+        {
+          "name": "CARTERAS",
+          "description": "para las estaciones que ve el usuario, podrá ver todos los saldos"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63ebabe72b0b532d3defb263"
+  },
+  "name": "Pedidos Combustible",
+  "description": "Sistema para gestionar los pedidos de combustible de las estaciones",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Pedidos Combustible/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabe82b0b532d3defb264"
+  },
+  "name": "Recursos humanos",
+  "description": "Gestión de departamentos, puestos de trabajo, vacaciones, incapacidades, días festivos oficiales y prenóminas de empleados",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Recursos humanos/official-icon.svg",
+  "uri": "recursos-humanos",
+  "isMaintenance": false,
+  "roles": [
+    {
+      "_id": 0,
+      "name": "Administrador de recursos humanos",
+      "subModules": [
+        {
+          "name": "DEPARTAMENTOS",
+          "description": "podrá administrar departamentos"
+        },
+        {
+          "name": "PUESTOS DE TRABAJO",
+          "description": "podrá administrar puestos de trabajo"
+        },
+        {
+          "name": "EMPLEADOS",
+          "description": "podrá administrar empleados"
+        },
+        {
+          "name": "DOCUMENTOS",
+          "description": "test"
+        },
+        {
+          "name": "VACACIONES",
+          "description": "test"
+        },
+        {
+          "name": "INCAPACIDADES",
+          "description": "test"
+        },
+        {
+          "name": "DÍAS FESTIVOS",
+          "description": "test"
+        },
+        {
+          "name": "PRENÓMINA",
+          "description": "test"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63ebabe92b0b532d3defb265"
+  },
+  "name": "Direccion",
+  "description": "Modulo para proyectos de Carlos - IEES",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Direccion/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+},{
+  "_id": {
+    "$oid": "63ebabea2b0b532d3defb266"
+  },
+  "name": "Cobranzas entre estaciones",
+  "description": "Las estaciones solicitan el pago de aquellas cargas de combustible que se han realizado en sus estaciones con vales",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Cobranzas entre estaciones/official-icon.svg",
+  "uri": "cobranzas-entre-estaciones",
+  "isMaintenance": false,
+  "roles": [
+    {
+      "_id": 0,
+      "name": "Administrador de cobranzas entre estaciones",
+      "subModules": [
+        {
+          "name": "COBRANZAS POR COBRAR",
+          "description": "para las estaciones que ve el usuario, podrá ver todos los comprobantes, agregar nuevas cobranzas y eliminar cobranzas de comprobantes con estatus pendiente y autorizada"
+        },
+        {
+          "name": "COBRANZAS POR PAGAR",
+          "description": "para las estaciones que ve el usuario, podrá ver todos los abonos, realizar abonos a cobranzas y ver todos los comprobantes con estatus de autorizada o pendientes"
+        },
+        {
+          "name": "AUTORIZACIÓN DE COBRANZAS",
+          "description": "para todas las estaciones, podrá ver, autorizar cobranzas y rechazar cobranzas de todos los comprobantes con estatus pendiente"
+        }
+      ]
+    },
+    {
+      "_id": 1,
+      "name": "Auditor de cobranzas",
+      "subModules": [
+        {
+          "name": "AUTORIZACIÓN DE COBRANZAS",
+          "description": "para todas las estaciones, podrá ver, autorizar cobranzas y rechazar cobranzas de todos los comprobantes con estatus pendiente"
+        }
+      ]
+    },
+    {
+      "_id": 2,
+      "name": "Gerente de estacion",
+      "subModules": [
+        {
+          "name": "COBRANZAS POR COBRAR",
+          "description": "para las estaciones que ve el usuario, podrá ver todos los comprobantes, agregar nuevas cobranzas y eliminar cobranzas de comprobantes con estatus pendiente y autorizada"
+        },
+        {
+          "name": "COBRANZAS POR PAGAR",
+          "description": "para las estaciones que ve el usuario, podrá ver todos los abonos, realizar abonos a cobranzas y ver todos los comprobantes con estatus de autorizada o pendientes"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63ebabec2b0b532d3defb267"
+  },
+  "name": "Corte Vales",
+  "description": "Gestión de vales",
+  "image": "https://storage.googleapis.com/escoserra-bucket/rendiapps/modulos/Corte Vales/official-icon.png",
+  "uri": null,
+  "isMaintenance": true,
+  "roles": []
+}]
