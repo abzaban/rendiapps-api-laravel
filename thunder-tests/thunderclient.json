@@ -1,0 +1,920 @@
+[
+  {
+    "_id": "679df151-537c-4a2a-9991-d2711387a6a5",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "781db7ba-ccc8-4dfa-a2df-a3e4a447b9e6",
+    "name": "login",
+    "url": "{{url}}/auth/login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-01-13T15:29:38.129Z",
+    "modified": "2023-01-24T00:29:43.161Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"authValue\": \"abza\",\n  \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a0d22fcf-e23c-45a6-b678-d8579f98a53b",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "781db7ba-ccc8-4dfa-a2df-a3e4a447b9e6",
+    "name": "logout",
+    "url": "{{url}}/auth/logout",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-01-13T18:39:21.946Z",
+    "modified": "2023-01-13T18:41:02.657Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f44f6f8f-58cc-47d7-b916-794773018a19",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "781db7ba-ccc8-4dfa-a2df-a3e4a447b9e6",
+    "name": "renew token",
+    "url": "{{url}}/auth/renewToken",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-01-13T18:39:58.197Z",
+    "modified": "2023-01-13T18:40:46.438Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f6efc049-7ec7-438d-982f-6a842a37ea53",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "6d617014-727f-4bf6-89d5-e24863f39fd1",
+    "name": "send mail",
+    "url": "{{url}}/recoverPassword/sendMail",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2023-01-13T18:42:26.700Z",
+    "modified": "2023-01-13T18:43:04.307Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"abrahamberrelleza10@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3d344e0e-6786-4750-9dc2-7bf70aca06f6",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "2740b063-708a-42ae-8d02-462cc73e78f5",
+    "name": "get all",
+    "url": "{{url}}/modules?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2023-01-13T18:47:41.480Z",
+    "modified": "2023-01-13T18:48:12.335Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "9be38cea-30cd-4078-9fd1-bc61d1e79296",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e9144451-9877-4ad4-8fb2-5836bafcc106",
+    "name": "save",
+    "url": "{{url}}/enterprises",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2023-01-13T18:55:07.829Z",
+    "modified": "2023-01-13T19:11:04.969Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"townId\": \"63bf0a88c7653272a728cf14\",\n  \"businessName\": \"test\",\n  \"nickName\": \"test\",\n  \"rfc\": \"000000000000\",\n  \"email\": \"test@test.com\",\n  \"cellphones\": [\"6671058307\"],\n  \"serverDomain\": \"test\",\n  \"category\": \"SOCIOS\",\n  \"segment\": 1\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "93d1298d-8ca5-488d-9334-e783ac9ca438",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e9144451-9877-4ad4-8fb2-5836bafcc106",
+    "name": "get all",
+    "url": "{{url}}/enterprises?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2023-01-13T19:12:48.855Z",
+    "modified": "2023-01-13T19:13:04.116Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "be0bcf85-3ad3-499f-bb0d-add8bf7d54fa",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e9144451-9877-4ad4-8fb2-5836bafcc106",
+    "name": "update",
+    "url": "{{url}}/enterprises/63cae21b7a919b971d036332",
+    "method": "PUT",
+    "sortNum": 90000,
+    "created": "2023-01-13T19:13:19.423Z",
+    "modified": "2023-01-20T18:51:01.077Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"townId\": \"63bf0a88c7653272a728cf14\",\n  \"businessName\": \"test2\",\n  \"nickName\": \"test2\",\n  \"rfc\": \"111111111111\",\n  \"email\": \"test@test.com\",\n  \"cellphones\": [\"6671058307\"],\n  \"serverDomain\": \"test2\",\n  \"category\": \"SOCIOS\",\n  \"segment\": 1\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "90ce2318-f8ba-4aed-a664-1fed04940e43",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e9144451-9877-4ad4-8fb2-5836bafcc106",
+    "name": "delete",
+    "url": "{{url}}/enterprises/63c1acc8179e50eeeb04ef62?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 100000,
+    "created": "2023-01-13T19:15:10.066Z",
+    "modified": "2023-01-13T19:15:32.584Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "8fbd1199-fd3e-4f88-a4f3-0cb16bd73063",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "update",
+    "url": "{{url}}/stations/63c1b5d922ab02ca0109f3e2",
+    "method": "PUT",
+    "sortNum": 10000,
+    "created": "2023-01-13T19:33:58.574Z",
+    "modified": "2023-01-13T22:48:25.165Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"townId\": \"63bf0a88c7653272a728cf14\",\n  \"businessName\": \"test2\",\n  \"nickName\": \"test2\",\n  \"rfc\": \"000000000000\",\n  \"email\": \"test@test.com\",\n  \"cellphones\": [\"6671058307\"],\n  \"serverDomain\": \"test2\",\n  \"category\": \"SOCIOS\",\n  \"segment\": 1,\n  \"stationNumber\": 232,\n  \"brand\": \"QUICKGAS\",\n  \"legalPermission\": \"test2\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "70d782ad-b469-488d-80bf-68af5bf4e19b",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "delete",
+    "url": "{{url}}/stations/63c1acc8179e50eeeb04ef62?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 20000,
+    "created": "2023-01-13T19:34:10.965Z",
+    "modified": "2023-01-13T22:48:38.510Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "1d135e76-e3f1-48d7-a9d2-0ffb6506c5fb",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "get all",
+    "url": "{{url}}/stations?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 7500,
+    "created": "2023-01-13T19:34:15.092Z",
+    "modified": "2023-01-13T22:47:28.370Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "344dddef-d2e5-48a2-b420-6e3b7643cb3e",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "save",
+    "url": "{{url}}/stations",
+    "method": "POST",
+    "sortNum": 5000,
+    "created": "2023-01-13T19:34:18.164Z",
+    "modified": "2023-01-13T19:49:45.486Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"townId\": \"63bf0a88c7653272a728cf14\",\n  \"businessName\": \"test\",\n  \"nickName\": \"test\",\n  \"rfc\": \"000000000000\",\n  \"email\": \"test@test.com\",\n  \"cellphones\": [\"6671058307\"],\n  \"serverDomain\": \"test\",\n  \"category\": \"SOCIOS\",\n  \"segment\": 1,\n  \"stationNumber\": 232,\n  \"brand\": \"QUICKGAS\",\n  \"legalPermission\": \"test\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cb3088fc-a0aa-42fa-83b7-3b36712ba7e1",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "5c4e8425-9eb4-444a-9c31-5f2fd04aabea",
+    "name": "save",
+    "url": "{{url}}/users",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-01-13T22:54:40.012Z",
+    "modified": "2023-02-09T19:27:56.464Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"firstName\": \"test\",\n  \"lastName\": \"test\",\n  \"address\": \"test\",\n  \"email\": \"tesest@tesst.com\",\n  \"username\": \"tefdsast\",\n  \"password\": \"123456\",\n  \"permissions\": {\n    \"enterprises\": [\"63dd5137c0998ed6992f53ad\"],\n    \"stations\": [\"63dd5137c0998ed6992f53c2\"],\n    \"modules\": [{\"moduleId\": \"63dd511f36251abf5eb711f8\", \"roleId\": 0}]\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "353a5005-eedc-4e07-b584-54fab1343014",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "5c4e8425-9eb4-444a-9c31-5f2fd04aabea",
+    "name": "get all",
+    "url": "{{url}}/users?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-01-13T22:54:42.603Z",
+    "modified": "2023-01-13T22:57:29.943Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "25c53cff-0609-4927-8716-054dabf4f2f4",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "5c4e8425-9eb4-444a-9c31-5f2fd04aabea",
+    "name": "update",
+    "url": "{{url}}/users/63c1e1b0e875c2be7b036966",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2023-01-13T22:54:45.836Z",
+    "modified": "2023-02-01T15:19:58.570Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"firstName\": \"test2\",\n  \"lastName\": \"test2\",\n  \"address\": \"test2\",\n  \"email\": \"test2@test2.com\",\n  \"username\": \"test2\",\n  \"password\": \"123456\",\n  \"permissions\": {\n    \"enterprises\": [\"63d2d21c4a453ef822390a5d\"],\n    \"stations\": [\"63d2d21c4a453ef822390a72\"],\n    \"modules\": [{\"moduleId\": \"63d2d203f53c9340477e95d7\", \"roleId\": 0}]\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "98774ce6-3246-4c3f-8e04-ae43586d2745",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "5c4e8425-9eb4-444a-9c31-5f2fd04aabea",
+    "name": "delete",
+    "url": "{{url}}/users/63c1e1b0e875c2be7b036966?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2023-01-13T22:55:00.059Z",
+    "modified": "2023-01-13T23:01:40.140Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "a2834ad2-b3b5-478f-a76b-61876aac83f5",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "5c4e8425-9eb4-444a-9c31-5f2fd04aabea",
+    "name": "update password",
+    "url": "{{url}}/users/63c1e3aee875c2be7b036967/updatePassword",
+    "method": "PUT",
+    "sortNum": 110000,
+    "created": "2023-01-13T23:02:57.350Z",
+    "modified": "2023-01-13T23:05:25.444Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"password\": \"123457\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "076cd816-a0db-4eb8-a2a3-639c0d7806b0",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "c02ad271-92ee-4bb5-bedb-14c3b1dabf96",
+    "name": "get all",
+    "url": "{{url}}/towns?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 150000,
+    "created": "2023-01-17T15:39:34.543Z",
+    "modified": "2023-01-17T15:39:49.731Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "13c7f828-214b-4dc5-af6d-e93926d88532",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e9144451-9877-4ad4-8fb2-5836bafcc106",
+    "name": "get",
+    "url": "{{url}}/enterprises/63d2d21c4a453ef822390a5f?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 160000,
+    "created": "2023-01-20T18:15:56.428Z",
+    "modified": "2023-02-02T16:14:19.653Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "0002deea-c2c7-4476-abad-1fdcd473638b",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "get",
+    "url": "{{url}}/stations/63d2d21c4a453ef822390a72?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 170000,
+    "created": "2023-01-20T20:01:14.352Z",
+    "modified": "2023-02-02T16:55:31.425Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "77293d18-8e1f-4cb3-b35c-d446f57ca3c2",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "5c4e8425-9eb4-444a-9c31-5f2fd04aabea",
+    "name": "get",
+    "url": "{{url}}/users/63bf0ab405e0d3cfbbc93fbd?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 75000,
+    "created": "2023-01-21T19:40:32.654Z",
+    "modified": "2023-01-21T19:47:45.303Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "439cff8d-3f0c-4fa1-9be2-07aa4eaf4281",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e9144451-9877-4ad4-8fb2-5836bafcc106",
+    "name": "get table adapter",
+    "url": "{{url}}/enterprises/getTableAdapter?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 130000,
+    "created": "2023-01-26T19:53:34.669Z",
+    "modified": "2023-01-26T19:53:57.630Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "abea694d-3599-4c89-b455-20d4db891885",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "get table adapter",
+    "url": "{{url}}/stations/getTableAdapter?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 95000,
+    "created": "2023-01-28T00:17:27.273Z",
+    "modified": "2023-01-28T00:17:39.653Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "544ff601-b540-48c2-9a4d-286e80c7f172",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "2740b063-708a-42ae-8d02-462cc73e78f5",
+    "name": "get modules of user",
+    "url": "{{url}}/modules/getModulesOfUser?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 180000,
+    "created": "2023-01-28T07:04:28.568Z",
+    "modified": "2023-01-28T07:05:08.459Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "728c74a8-c6dc-4dbe-85e6-bb2ad846a406",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "get collects to collect in date range",
+    "url": "{{url}}/collects/getTableAdapterOfCollectsToCollectInDateRange?ra_token={{token}}&startDate=1/1/2023&endDate=1/1/2024",
+    "method": "GET",
+    "sortNum": 190000,
+    "created": "2023-01-29T08:58:39.384Z",
+    "modified": "2023-02-03T18:44:33.905Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      },
+      {
+        "name": "startDate",
+        "value": "1/1/2023",
+        "isPath": false
+      },
+      {
+        "name": "endDate",
+        "value": "1/1/2024",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "4f700440-c3da-4baf-bafc-afd023442c6e",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "get collects to pay in date range",
+    "url": "{{url}}/collects/getTableAdapterOfCollectsToPayInDateRange?ra_token={{token}}&startDate=1/1/2023&endDate=1/1/2024",
+    "method": "GET",
+    "sortNum": 200000,
+    "created": "2023-01-29T11:30:43.015Z",
+    "modified": "2023-02-03T18:44:29.408Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      },
+      {
+        "name": "startDate",
+        "value": "1/1/2023",
+        "isPath": false
+      },
+      {
+        "name": "endDate",
+        "value": "1/1/2024",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "592a9be8-8d78-4289-8833-298419571949",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "get collects pending processing in date range",
+    "url": "{{url}}/collects/getTableAdapterOfCollectsPendingProccessingInDateRange?ra_token={{token}}&startDate=1/1/2023&endDate=1/1/2024",
+    "method": "GET",
+    "sortNum": 210000,
+    "created": "2023-01-29T11:30:45.298Z",
+    "modified": "2023-02-03T18:44:42.944Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      },
+      {
+        "name": "startDate",
+        "value": "1/1/2023",
+        "isPath": false
+      },
+      {
+        "name": "endDate",
+        "value": "1/1/2024",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "e8348ae2-e860-47ba-b0a2-7f4c00189e61",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "delete",
+    "url": "{{url}}/collects/63dd513c2b09ae3e4de51132?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 95000,
+    "created": "2023-02-04T17:56:21.684Z",
+    "modified": "2023-02-07T23:37:40.436Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "c73b7927-6baf-4dfb-8466-8cbcea271516",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "authorize collect",
+    "url": "{{url}}/collects/63dd513c2b09ae3e4de51132/authorize?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 230000,
+    "created": "2023-02-07T19:30:25.633Z",
+    "modified": "2023-02-07T19:37:51.471Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "8f34ab5a-3eef-47ef-822d-cb880aea7f8f",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "reject collect",
+    "url": "{{url}}/collects/63dd513c2b09ae3e4de51132/reject?ra_token={{token}}",
+    "method": "POST",
+    "sortNum": 240000,
+    "created": "2023-02-07T19:38:56.050Z",
+    "modified": "2023-02-07T19:45:35.106Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"rejectedNote\": \"Testing\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8b4cbc38-ac47-4aaa-98d8-436188c1b0b8",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "save",
+    "url": "{{url}}/collects",
+    "method": "POST",
+    "sortNum": 47500,
+    "created": "2023-02-07T23:38:05.718Z",
+    "modified": "2023-02-08T00:22:28.804Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"stationCollectId\": \"63dd5137c0998ed6992f53c2\",\n  \"stationPayId\": \"63dd5137c0998ed6992f53c2\",\n  \"userId\": \"63dd5138849063563f58e6a9\",\n  \"amount\": \"1\",\n  \"debitDate\": \"08/05/2020\",\n  \"file\": \"1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cf5c7592-90d0-4427-8229-01512daa3184",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "9341d098-a3e6-411d-a33a-803f3ea8b87e",
+    "name": "add account",
+    "url": "{{url}}/wallets/63dd5137c0998ed6992f53c2/accounts",
+    "method": "POST",
+    "sortNum": 275000,
+    "created": "2023-02-10T16:24:16.695Z",
+    "modified": "2023-02-12T11:00:07.993Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"bankName\": \"BANORTE\",\n  \"accountNumber\": \"1111222233334444\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6ea1bd4f-40ef-4ccf-8396-7aa811aab755",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "9341d098-a3e6-411d-a33a-803f3ea8b87e",
+    "name": "get table adapter",
+    "url": "{{url}}/wallets/getTableAdapter?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 270000,
+    "created": "2023-02-10T17:02:11.461Z",
+    "modified": "2023-02-10T17:03:08.812Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d2539acf-3aef-4a8a-b4fc-948ee47ea287",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "9341d098-a3e6-411d-a33a-803f3ea8b87e",
+    "name": "update account",
+    "url": "{{url}}/wallets/63dd5137c0998ed6992f53c2/accounts/63e8c6d10996b801a606c5f2",
+    "method": "PUT",
+    "sortNum": 280000,
+    "created": "2023-02-10T20:31:45.066Z",
+    "modified": "2023-02-12T11:01:59.081Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"bankName\": \"BBVA\",\n  \"accountNumber\": \"1111222233334444\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "61ae7dbc-53c9-49e2-9ef0-9b54d61ad28d",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "9341d098-a3e6-411d-a33a-803f3ea8b87e",
+    "name": "delete account",
+    "url": "{{url}}/wallets/63dd5137c0998ed6992f53ad/accounts/63e69e592e55e844210460b7?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 290000,
+    "created": "2023-02-10T20:58:20.269Z",
+    "modified": "2023-02-10T20:59:37.319Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "aca17bb2-7fb6-4bf8-ac90-5d434ed1e19e",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "e326d6da-719b-4d71-a7f5-55acce6af205",
+    "name": "get stations of user",
+    "url": "{{url}}/stations/getStationsOfUser?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 300000,
+    "created": "2023-02-13T19:51:58.582Z",
+    "modified": "2023-02-13T19:53:07.105Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "2469ed8f-64a9-4021-b073-c1b01ad675da",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "0a6e7097-f116-4d26-9a84-bed78461bca5",
+    "name": "get",
+    "url": "{{url}}/departments/63ebdc5b7443af6de6063003?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-02-14T18:11:57.631Z",
+    "modified": "2023-02-14T19:10:22.304Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d1612670-ac70-4172-afbf-9424bf4cc5dd",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "0a6e7097-f116-4d26-9a84-bed78461bca5",
+    "name": "get table adapter",
+    "url": "{{url}}/departments/getTableAdapter?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 7500,
+    "created": "2023-02-14T18:12:01.341Z",
+    "modified": "2023-02-14T18:17:43.269Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "51ec7d5e-abc1-4bf1-84da-f1060c0557aa",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "0a6e7097-f116-4d26-9a84-bed78461bca5",
+    "name": "delete",
+    "url": "{{url}}/departments/63ebdc5b7443af6de6063003?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 5000,
+    "created": "2023-02-14T18:12:08.734Z",
+    "modified": "2023-02-14T19:10:39.819Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "e41bd732-4398-4667-ad90-f5f7c097bed2",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "0a6e7097-f116-4d26-9a84-bed78461bca5",
+    "name": "update",
+    "url": "{{url}}/departments/63ebdc5b7443af6de6063003",
+    "method": "PUT",
+    "sortNum": 2500,
+    "created": "2023-02-14T18:12:14.014Z",
+    "modified": "2023-02-14T19:10:08.529Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"name\": \"Recursos humanos\",\n  \"ownerId\": \"63ebabece5e32a334c2388d7\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "528a4632-54bc-4350-a7c3-6fb025c4fbc4",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "0a6e7097-f116-4d26-9a84-bed78461bca5",
+    "name": "get all",
+    "url": "{{url}}/departments?ra_token={{token}}",
+    "method": "GET",
+    "sortNum": 1250,
+    "created": "2023-02-14T18:12:32.269Z",
+    "modified": "2023-02-14T18:17:34.992Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "28cca063-a0cb-411a-bddf-7da425330704",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "0a6e7097-f116-4d26-9a84-bed78461bca5",
+    "name": "save",
+    "url": "{{url}}/departments",
+    "method": "POST",
+    "sortNum": 625,
+    "created": "2023-02-14T18:12:38.477Z",
+    "modified": "2023-02-14T19:09:15.392Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"name\": \"Tecnologías de la información\",\n  \"ownerId\": \"63ebabece5e32a334c2388eb\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "fc9270ea-a630-4240-9468-a346dd3d7f86",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "delete payment",
+    "url": "{{url}}/collects/63ebabf339b3075aeec8d4b7/payments/as?ra_token={{token}}",
+    "method": "DELETE",
+    "sortNum": 225000,
+    "created": "2023-02-15T00:13:08.839Z",
+    "modified": "2023-02-15T15:57:47.198Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ra_token",
+        "value": "{{token}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "6263b62e-b606-47a2-a0b7-efd779ccec9b",
+    "colId": "a22cd1bc-2169-42fa-b2d5-38400828ed20",
+    "containerId": "99124370-9b0b-4004-ab41-0e46ec9edb78",
+    "name": "save payment",
+    "url": "{{url}}/collects/63ebabf339b3075aeec8d4b7/payments",
+    "method": "POST",
+    "sortNum": 220000,
+    "created": "2023-02-15T15:57:37.978Z",
+    "modified": "2023-02-15T17:14:24.958Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ra_token\": \"{{token}}\",\n  \"amount\": 1,\n  \"paymentDate\": \"08/05/2020\",\n  \"file\": \"1\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

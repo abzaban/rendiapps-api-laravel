@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "a15fd90b-e81a-4d07-9be5-d79c0edb55a7",
+    "name": "rendiapps 2.0",
+    "default": true,
+    "sortNum": 5000,
+    "created": "2023-01-13T15:29:48.765Z",
+    "modified": "2023-01-13T15:29:48.765Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "http://localhost:8081/api"
+      },
+      {
+        "name": "token",
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODEvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NzY0ODE1NzAsImV4cCI6MTY3NjQ4NTE3MCwibmJmIjoxNjc2NDgxNTcwLCJqdGkiOiJBM0ZNUnh6eW9Sakc1UGM0Iiwic3ViIjoiNjNlYmFiZjA2MzAzNDc2Y2Y5YzYwOThmIiwiY29ycmVvIjoiYWJyYWhhbWJlcnJlbGxlemExMEBnbWFpbC5jb20ifQ.tqh8UE-5oOGn8aYE7WMfUzhDLyi0OYTaJRs1XhsQaWg"
+      }
+    ]
+  }
+]

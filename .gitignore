@@ -1,0 +1,49 @@
+# Laravel-specific ignores
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+composer.lock
+.env
+.env.backup
+.env.*.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+storage/framework/*
+!storage/framework/.gitkeep
+storage/logs/*
+!storage/logs/.gitkeep
+public/storage
+public/hot
+public/build/*
+!public/build/.gitkeep
+
+# VS Code-specific ignores
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# General ignores
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Laravel Mix
+/public/mix-manifest.json
+/public/js/*
+/public/css/*
+!public/js/.gitkeep
+!public/css/.gitkeep
+
+# Testing and coverage
+/coverage/*
+.php_cs.cache
